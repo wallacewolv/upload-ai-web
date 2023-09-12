@@ -1,4 +1,4 @@
-import { FileVideo, Github, Upload } from "lucide-react";
+import { FileVideo, Github, Upload, Wand2 } from "lucide-react";
 
 import { Button } from "./components/ui/button";
 import { Label } from "./components/ui/label";
@@ -115,6 +115,13 @@ export function App() {
                 com possíveis erros.
               </span>
             </div>
+
+            <Separator />
+
+            <Button type="submit" className="w-full">
+              Executar
+              <Wand2 className="w-4 h-4 ml-2" />
+            </Button>
           </form>
         </aside>
       </main>
